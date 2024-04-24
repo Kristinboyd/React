@@ -17,7 +17,7 @@ function App() {
 
   console.log('APP COMPONENT EXECUTING');
 
-  let tabContent = <p>Please select a topic.</p>;
+  let tabContent = <p>Please select a topic!</p>;
 
   if (selectedTopic) {
     tabContent = (
