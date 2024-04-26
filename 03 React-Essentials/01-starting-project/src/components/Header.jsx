@@ -7,7 +7,7 @@ import { genRandomInt } from "../utils";
 
 
 // Header
-export default function Header() {
+export default function Header(props) {
   const description = reactDescriptions[genRandomInt(2)];
 
   return (
