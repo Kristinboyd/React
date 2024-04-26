@@ -1,6 +1,6 @@
 // Components
-import CoreConcepts from './Components/CoreConcepts';
 import Header from './Components/Header';
+import CoreConcepts from './Components/CoreConcepts';
 // Data
 import { CORE_CONCEPTS } from './data';
 
