@@ -7,6 +7,11 @@ import { CORE_CONCEPTS } from './data';
 
 // Default App
 function App() {
+  function handleSelect(selectedButton) {
+    // selectedButton => 'Components', 'JSX', 'Props', 'State'
+    console.log(selectedButton);
+  }
+
   return (
     <div>
       <Header />
@@ -20,15 +25,16 @@ function App() {
             <CoreConcepts {...CORE_CONCEPTS[3]} />
           </ul>
         </section>
-        
+
         <section id="examples">
           <h2>Examples</h2>
           <menu>
-            <TabButton label="Components"/>
-            <TabButton label="JSX"/>
-            <TabButton label="Props"/>
-            <TabButton label="State"/>
+            <TabButton onSelect={() => handleSelect('Components')}>Components</TabButton>
+            <TabButton onSelect={() => handleSelect('JSX')}>JSX</TabButton>
+            <TabButton onSelect={() => handleSelect('Props')}>Props</TabButton>
+            <TabButton onSelect={() => handleSelect('State')}>State</TabButton>
           </menu>
+          Dynamic content
         </section>
       </main>
     </div>
