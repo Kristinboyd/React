@@ -7,7 +7,7 @@ import TabButton from './components/TabButton';
 // Data
 import { CORE_CONCEPTS } from './data';
 // Constants
-import { EXAMPLES } from '../data-with-examples';
+import { EXAMPLES } from './assets/data-with-examples';
 
 // Default App
 function App() {
