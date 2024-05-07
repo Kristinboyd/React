@@ -16,7 +16,7 @@ function App() {
 
   // helper functions
   function handleSelect(selectedButton) {
-    // selectedButton => 'Components', 'JSX', 'Props', 'State'
+    // selectedButton options => 'Components', 'JSX', 'Props', 'State'
     setSelectedTopic(selectedButton);
     console.log(selectedButton);
   }
