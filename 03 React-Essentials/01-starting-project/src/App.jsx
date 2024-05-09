@@ -14,7 +14,7 @@ function App() {
   // state
   const [selectedTopic, setSelectedTopic] = useState();
 
-  // helper functions
+  // helper function
   function handleSelect(selectedButton) {
     // selectedButton options => 'Components', 'JSX', 'Props', 'State'
     setSelectedTopic(selectedButton);
