@@ -1,8 +1,8 @@
 // Libraries
 import { useState } from 'react';
 // Components
-import Header from './Components/Header';
 import CoreConcepts from './Components/CoreConcepts';
+import Header from './Components/Header';
 import TabButton from './components/TabButton';
 // Data
 import { CORE_CONCEPTS } from './data';
