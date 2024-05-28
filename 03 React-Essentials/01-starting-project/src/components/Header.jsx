@@ -1,10 +1,9 @@
-// Constants 
-import { reactDescriptions } from "../constants";
+// Constants
+import { reactDescriptions } from '../constants';
 // Images
 import reactImg from '../assets/react-core-concepts.png';
 // Utils
-import { genRandomInt } from "../utils";
-
+import { genRandomInt } from '../utils';
 
 // Header
 export default function Header(props) {
