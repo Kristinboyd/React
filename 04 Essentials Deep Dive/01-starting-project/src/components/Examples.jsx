@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 // Components
 import TabButton from './TabButton.jsx';
+import { EXAMPLES } from "../data.js";
 
 
 // Examples
