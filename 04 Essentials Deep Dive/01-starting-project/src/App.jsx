@@ -10,8 +10,8 @@ export default function App() {
     <div>
       <Header />
       <main>
-      <CoreConcepts />
-      <Examples />
+        <CoreConcepts />
+        <Examples />
       </main>
     </div>
   );
