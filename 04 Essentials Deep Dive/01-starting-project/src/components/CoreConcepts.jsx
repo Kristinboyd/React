@@ -4,7 +4,6 @@ import CoreConcept from './CoreConcept';
 import { CORE_CONCEPTS } from '../data';
 
 
-// Core Concepts
 export default function CoreConcepts() {
   return (
     <section id="core-concepts">

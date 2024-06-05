@@ -4,7 +4,6 @@ import Examples from './components/Examples.jsx';
 import Header from './components/Header/Header.jsx';
 
 
-// App
 export default function App() {
   return (
     <div>

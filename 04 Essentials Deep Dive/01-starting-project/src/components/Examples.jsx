@@ -6,7 +6,6 @@ import TabButton from './TabButton.jsx';
 import { EXAMPLES } from "../data.js";
 
 
-// Examples
 export default function Examples(){
   // state
   const [selectedTopic, setSelectedTopic] = useState();
