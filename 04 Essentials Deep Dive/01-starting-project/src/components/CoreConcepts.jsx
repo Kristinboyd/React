@@ -3,7 +3,6 @@ import CoreConcept from './CoreConcept';
 // Constants
 import { CORE_CONCEPTS } from '../data';
 
-
 export default function CoreConcepts() {
   return (
     <section id="core-concepts">
