@@ -33,7 +33,7 @@ export default function Examples() {
   }
 
   return (
-    <Section title='Examples' id="examples">
+    <Section title="Examples" id="examples">
       <menu>
         <TabButton
           isSelected={selectedTopic === 'components'}
@@ -61,6 +61,6 @@ export default function Examples() {
         </TabButton>
       </menu>
       {tabContent}
-    </ Section>
+    </Section>
   );
 }
