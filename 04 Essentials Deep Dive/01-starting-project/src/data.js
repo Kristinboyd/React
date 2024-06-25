@@ -8,26 +8,26 @@ export const CORE_CONCEPTS = [
     image: componentsImg,
     title: 'Components',
     description:
-      'The core UI building block - compose the user interface by combining multiple components.',
+      'The core UI building block - compose the user interface by combining multiple components.'
   },
   {
     image: jsxImg,
     title: 'JSX',
     description:
-      'Return (potentially dynamic) HTML(ish) code to define the actual markup that will be rendered.',
+      'Return (potentially dynamic) HTML(ish) code to define the actual markup that will be rendered.'
   },
   {
     image: propsImg,
     title: 'Props',
     description:
-      'Make components configurable (and therefore reusable) by passing input data to them.',
+      'Make components configurable (and therefore reusable) by passing input data to them.'
   },
   {
     image: stateImg,
     title: 'State',
     description:
-      'React-managed data which, when changed, causes the component to re-render & the UI to update.',
-  },
+      'React-managed data which, when changed, causes the component to re-render & the UI to update.'
+  }
 ];
 
 export const EXAMPLES = {
@@ -38,7 +38,7 @@ export const EXAMPLES = {
     code: `
 function Welcome() {
   return <h1>Hello, World!</h1>;
-}`,
+}`
   },
   jsx: {
     title: 'JSX',
@@ -48,7 +48,7 @@ function Welcome() {
 <div>
   <h1>Welcome {userName}</h1>
   <p>Time to learn React!</p>
-</div>`,
+</div>`
   },
   props: {
     title: 'Props',
@@ -57,7 +57,7 @@ function Welcome() {
     code: `
 function Welcome(props) {
   return <h1>Hello, {props.name}</h1>;
-}`,
+}`
   },
   state: {
     title: 'State',
@@ -77,6 +77,6 @@ function Counter() {
       {isVisible && <p>Amazing details!</p>}
     </div>
   );
-}`,
-  },
+}`
+  }
 };
